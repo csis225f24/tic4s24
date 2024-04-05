@@ -9,16 +9,16 @@ public class StringMethods {
 	
 	// Some tests
 	String s1 = "Happy New Year";
-	System.out.println( s1.firstHalf() );   		
+	System.out.println( firstHalf(s1) );   		
 	
 	String s2 = "Hello";
-	System.out.println( s2.lengthen() );	
+	System.out.println( lengthen(s2) );	
 	
 	String s3 = "Mississippi";
-	System.out.println( s3.lastK(4) );
+	System.out.println( lastK(s3, 4) );
 
 	String s4 = "Computer Science";
-	System.out.println( s4.reverseIt() );
+	System.out.println( reverseIt(s4) );
     }
 }
 
