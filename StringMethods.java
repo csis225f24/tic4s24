@@ -15,7 +15,10 @@ public class StringMethods {
 	System.out.println( s2.lengthen() );	
 	
 	String s3 = "Mississippi";
-	System.out.println( s3.lastK(4) );   
+	System.out.println( s3.lastK(4) );
+
+	String s4 = "Computer Science";
+	System.out.println( s4.reverseIt() );
     }
 }
 
